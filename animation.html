@@ -1,0 +1,49 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <title>Document</title>
+    <style>
+
+        @keyframes animate {
+           from{
+            background-color: brown;
+            width: 300px;
+            top: 10px;
+           }
+           to{
+            background-color: darkslategrey;
+            width: 50px;
+            top: 100px;
+           }
+        }
+        
+        :root{
+            --divWidth : 300px;
+            --divHeight : 100px;
+            --divBorderRadius : 10px;
+            --divPosition : absolute;
+            --divLeft : 0;
+            --divRight : 0;
+            --divMarginLeft : auto;
+            --divMarginRight : auto;
+        }
+
+        div{
+            animation: animate 3s alternate;
+            animation-iteration-count: infinite;
+            animation-timing-function: linear;
+            width: var(--divWidth);
+            height: var(--divHeight);
+            border-radius: var(--divBorderRadius);
+            position: var(--divPosition);
+            left: var(--divLeft);
+            right: var(--divRight);
+            margin-left: var(--divMarginLeft);
+            margin-right: var(--divMarginRight);
+        }
+    </style>
+</head>
+<body>
+    <div></div>
+</body>
+</html>

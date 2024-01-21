@@ -1,0 +1,23 @@
+body{
+    background-image: url("../images/yuhan-du-C93i3bTjM-Y-unsplash.jpg");
+    background-size: 70%;
+    /* background-repeat: no-repeat;  */
+    background-attachment: fixed;
+}
+
+div{
+    background-image: url("../images/vince-kowalski-S6AMxd-4r2Q-unsplash.jpg");
+    background-size: 60%;
+    background-repeat: no-repeat;
+    background-position-x: right;
+    background-position-y: top;
+    height: 150px;
+}
+
+h1{
+    color: blue;
+    text-align: center;
+    text-decoration: underline;
+    text-transform: uppercase;
+}
+

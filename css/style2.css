@@ -1,0 +1,15 @@
+body{
+    background-color: rgb(211, 238, 229);
+}
+
+p{
+    background-color: rgb(0, 255, 0);
+}
+
+h1{
+    background-color: #ffff00;
+}
+
+h2{
+    background-color: rgb(238, 130, 238, 50%);
+}

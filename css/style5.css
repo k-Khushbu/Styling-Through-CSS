@@ -1,0 +1,49 @@
+.parent{
+    margin: 71px 64px;
+    border: 3px solid black;
+    height: 300px;
+    width: 550px;
+}
+
+.parent1{
+    background-color: aqua;
+    position: static;
+}
+.parent2{
+    background-color: red;
+    position: relative;
+}
+
+.child{
+    border: 2px solid black;
+    height: 70px;
+    width: 70px;
+    text-align: center;
+}
+
+.child1{
+    background-color: chocolate;
+    position: fixed;
+    top: 0px;
+    right: 0px;
+}
+
+.child2{
+    background-color: green;
+    position: absolute;
+    top: 0px;
+    left: 0px;
+}
+
+.child3{
+    background-color: purple;
+    position: static;
+    margin: 0.1px 0.1px;
+}
+
+.child4{
+    background-color: blue;
+    position: absolute;
+    top: 0px;
+    left: 0px;
+}
